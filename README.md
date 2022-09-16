@@ -51,8 +51,8 @@
 
 ### Ссылки:
 
-* [Основное решение](//MAINSOLUTION/Program.cs)
-* [Альтернативное решение](//ALTERNATIVESOL/Program.cs)
+* [Основное решение](https://github.com/Nusha/FinalFirstTerm/blob/main/MAINSOLUTION/Program.cs)
+* [Альтернативное решение](https://github.com/Nusha/FinalFirstTerm/blob/main/ALTERNATIVESOL/Program.cs)
 * [Блок-схема](final.png)
 
 ### Блок-схема
