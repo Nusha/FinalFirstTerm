@@ -42,13 +42,13 @@ if (words == null!) Console.WriteLine ("Нулевое значение.");
 else
 {
 
-    string[] shortwords = Array.FindAll(words, ele => ele.Length <= 3);
+     string[] shortwords = Array.FindAll(words, e => e.Length <= 3);
     
-    // Еще один вариант, как можно.
-    // string[] shortwords = words.OfType<string>().Where(item => item.Length <= 3).ToArray();
+   // Еще один вариант, как можно.
+   // string[] shortwords = words.OfType<string>().Where(item => item.Length <= 3).ToArray();
 
 PrintArray(words);
-if (shortwords!=null)Console.Write(" -> ");
+// if (shortwords!=null)Console.Write(" -> ");
 PrintArray(shortwords!);
 Console.WriteLine();
 }
