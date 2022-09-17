@@ -48,7 +48,7 @@ else
    // string[] shortwords = words.OfType<string>().Where(item => item.Length <= 3).ToArray();
 
 PrintArray(words);
-// if (shortwords!=null)Console.Write(" -> ");
+if (shortwords!=null)Console.Write(" -> ");
 PrintArray(shortwords!);
 Console.WriteLine();
 }
